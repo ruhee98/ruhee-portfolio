@@ -1,0 +1,20 @@
+<!-- Within a shortcode we need $.Page to reach the page's resources. -->
+{{ $altText := .Get "alt"}}
+{{ $caption := .Get "caption"}}
+{{ with $.Page.Resources.GetMatch (.Get "name") }}
+  <div class="image-grid">
+    <a href="{{.RelPermalink}}">
+        {{ $thumb := .Resize "400x" }}
+      <img
+        srcset="
+          {{ (.Resize "320x").RelPermalink }} 320w,
+          {{ (.Resize "600x").RelPermalink }} 600w,
+          {{ (.Resize "1200x").RelPermalink }} 2x,"
+        src="{{$thumb.RelPermalink }}" alt="{{$altText}}"/>
+    </a>
+    <figcaption><p>{{ $caption }}</p></figcaption>
+</div>
+{{ else }}
+  could not find image
+{{ end }}
+

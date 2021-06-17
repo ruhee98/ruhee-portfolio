@@ -1,0 +1,9 @@
+[submodule "bin/themes/hugo-theme-console"]
+	path = bin/themes/hugo-theme-console
+	url = https://github.com/mrmierzejewski/hugo-theme-console.git
+[submodule "bin/first_site/themes/hugo-theme-console"]
+	path = bin/first_site/themes/hugo-theme-console
+	url = https://github.com/mrmierzejewski/hugo-theme-console.git
+[submodule "bin/first_site/themes/hugo-tania"]
+	path = bin/first_site/themes/hugo-tania
+	url = https://github.com/WingLim/hugo-tania

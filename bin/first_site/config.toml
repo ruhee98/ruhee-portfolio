@@ -1,0 +1,25 @@
+baseURL = "https://ruhee-s.dev"
+languageCode = "en-us"
+title = "ruhee-s.dev"
+theme = "hugo-theme-console"
+
+[params]
+  # Cutting off the page title to two chars for mobile (console-demo -> co)
+  titleCutting = true
+
+  # Set the animation style -- https://animate.style/
+  # To disable animations, please remove or comment animationStyle parameter
+  animateStyle = "animated zoomIn fast" 
+
+  [[params.navlinks]]
+  name = "about/"
+  url = "about/"
+
+  [[params.navlinks]]
+  name = "projects/"
+  url = "photos/"
+  
+  [[params.navlinks]]
+  name = "contact/"
+  url = "mailto:sruhee98@gmail.com/"
+
