@@ -1,6 +1,6 @@
-baseURL = "https://ruhees.dev"
+baseURL = "https://ruhees-dev.netlify.app"
 languageCode = "en-us"
-title = "ruhees.dev"
+title = "ruhees-dev"
 theme = "hugo-theme-console"
 
 [params]
