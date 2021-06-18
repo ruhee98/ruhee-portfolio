@@ -1,7 +1,7 @@
-baseURL = "https://ruhees.dev"
-languageCode = "en-us"
-title = "ruhees.dev"
+baseurl = "https://example.com/"
+title = "console-demo"
 theme = "hugo-theme-console"
+languageCode = "en-us"
 
 [params]
   # Cutting off the page title to two chars for mobile (console-demo -> co)
@@ -16,10 +16,9 @@ theme = "hugo-theme-console"
   url = "about/"
 
   [[params.navlinks]]
-  name = "projects/"
-  url = "photos/"
+  name = "posts/"
+  url = "posts/"
   
   [[params.navlinks]]
-  name = "contact/"
-  url = "mailto:sruhee98@gmail.com/"
-
+  name = "photos/"
+  url = "photos/"
