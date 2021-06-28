@@ -1,5 +1,5 @@
 +++ 
-image = "productivity-dash.gif" 
+image = "project-2.png" 
 date = "2021-05-01" 
 title = "Productivity Dashboard" 
 +++

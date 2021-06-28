@@ -82,7 +82,8 @@ seeking junior front end developer / data analyst roles based in the US.
             <a href="{{ .Permalink }}" title="{{ .Title }}">
             {{ $image := .Page.Resources.GetMatch .Params.image }}
             {{ with $image }}
-                {{ $thumb := .Resize "800x" }}
+                {{ $thumb := .Fill "1361x778" 
+            }}
                 <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
             {{end}}
             </a>

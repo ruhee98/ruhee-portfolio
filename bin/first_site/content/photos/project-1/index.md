@@ -1,6 +1,6 @@
 
 +++
-image = "Demo.gif"
+image = "project-1.png"
 date = "2021-03-28"
 title = "News Aggregator App Demo"
 +++
