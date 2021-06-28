@@ -40,8 +40,10 @@ B.A in Computer Science and Economics at Augustana College, IL
                     <li>Designed Protypes on Figma.</li>
                 </ul>
                 <div class="date"><i>Jun '21</i></div>
-                <h1><a href="http://ruhees-dev.netlify.app">Personal Website</a></h1>
-                Made using Hugo.
+                <h1><a href="http://ruhee-s.dev">Personal Website</a></h1>
+                    <ul>
+                        <li>Made using Hugo.</li>
+                    </ul>
                 <div class="date"><i>Sep - Nov '19</i></div>
                 <h1><a href="http://github.com/ruhee98/smart_finance" title="Finance App">Financial Tracker Android App</a></h1>
                 <ul><li>Android app made using Android Studios</li>
@@ -53,7 +55,7 @@ B.A in Computer Science and Economics at Augustana College, IL
 
 <h1>Experience</h1>
 <ul>
-    I have built both front- and back-end applications that function in harmony as well as utilizing packages, APIs. 
+    I have built both front-end and back-end applications that function in harmony as well as utilizing packages, APIs. 
     Listed below are some of my skills:
     <p>
         <li><b>Programming Languages</b>: JavaScript, Java, Python, SQL, HTML/CSS</li>
@@ -70,7 +72,7 @@ B.A in Computer Science and Economics at Augustana College, IL
             <a href="{{ .Permalink }}" title="{{ .Title }}">
             {{ $image := .Page.Resources.GetMatch .Params.image }}
             {{ with $image }}
-                {{ $thumb := .Fill "1361x778" 
+                {{ $thumb := .Fill "1361x800" 
             }}
                 <img src="{{ $thumb.RelPermalink }}" alt="{{ .Title }}" class="img-responsive">
             {{end}}
