@@ -33,7 +33,7 @@
 :root {
     --global-font-size: 16px;
     --global-font-color: rgb(22, 22, 22);
-    --mono-font-stack: Work Sans, Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace, serif;
+    --mono-font-stack: Work Sans, sans-serif;
     --font-stack: Work Sans, sans-serif;
     --global-line-height: 1.6em;
     --page-width: 60em;
