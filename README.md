@@ -1,4 +1,3 @@
-### Portfolio Website
 
 ## Link to Website: 
 http://ruhee-s.dev
